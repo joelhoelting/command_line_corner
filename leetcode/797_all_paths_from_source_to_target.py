@@ -1,3 +1,5 @@
+from typing import List
+
 def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
   ans = []
   q = [[0]]
